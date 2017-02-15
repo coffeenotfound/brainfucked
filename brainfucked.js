@@ -63,7 +63,7 @@ Brainfucked.Interpreter = {
 		}
 	},
 	
-	/** implementation is (hopefully) fully spec compliant */
+	/** implementation is (hopefully) fully spec compliant (plus negative pointers). Ran all examples perfectly */
 	_processInstruction(execution, inst) {
 		var skipCounterIncr = false;
 		
