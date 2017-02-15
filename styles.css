@@ -26,6 +26,17 @@ body {
 	font-size: 14px;
 }
 
+#console {
+	width: 100%;
+	min-height: 100px;
+	
+	color: #c5c8c6;
+	background: #1d1f21;
+	border: none;
+	
+	resize: vertical;
+}
+
 .editor-button-container {
 	text-align: right;
 }
